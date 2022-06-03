@@ -28,7 +28,7 @@ Pytorch, OpenCV, Numpy, Pandas, PIL, matplotlib, glob, json, mmcv, artemis
 	* feature_extraction.py: Helper file for feature extraction. 
 	* feature_transform.py: Helper file for feature transformation
 	* hist_matching_helpers.py: Helper file for histogram matching approach
-	* preprocess_emotion6.py
+	* preprocess_emotion6.py: Helper file for editing folder structure
 2.	Correlation for low level features
 	* emotion6_correlation.ipynb
 	* wikiart_correlation.ipynb
