@@ -46,4 +46,6 @@ Pytorch, OpenCV, Numpy, Pandas, PIL, matplotlib, glob, json, mmcv, artemis
 
 ## Extra notebooks and experiments
 --------------
-For other things we tried(DL Models/Filters), we share the drive link(https://drive.google.com/drive/folders/1tMW7kRVrirU9R4wxlCq58YDRba-UZ3Tr?usp=sharing). Please ask for access
+* We train another ML Model based on features extracted using https://github.com/yilangpeng/computational-aesthetics.
+* We trained a DL model using a CLIP backend. CLIP&Avg_Hist.ipynb. However, this is not fine tuned and does not perform as well as the Resnet34 Model.
+* For other things we tried(DL Models/Filters), we share the drive link(https://drive.google.com/drive/folders/1tMW7kRVrirU9R4wxlCq58YDRba-UZ3Tr?usp=sharing). Please ask for access
