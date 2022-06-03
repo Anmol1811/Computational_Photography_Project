@@ -25,22 +25,25 @@ Pytorch, OpenCV, Numpy, Pandas, PIL, matplotlib, glob, json, mmcv, artemis
 ## Usage
 ------------
 1. Helper files for extracting and transforming features and to generate some intermediate csvs.
-	* feature_transform.py
-	* feature_extraction.py
+	* feature_extraction.py: Helper file for feature extraction. 
+	* feature_transform.py: Helper file for feature transformation
 	* preprocess_emotion6.py
 2.	Correlation for low level features
 	* emotion6_correlation.ipynb
 	* wikiart_correlation.ipynb
 	* artphoto_abstract_correlation.ipynb
-3. ML and Deep learning models for Artemis and Emotion6 data
-	* ML_classifier_Emotion6.ipynb
-	* ML_classifier_Artemis.ipynb
+3. ML and Deep learning models for Artemis and Emotion6 data: The ML model is trained using 5 fold Cross Validation and Gridsearch for finding the best params. The deep models use a resnet34 backbone with an MLP layer. Before training, in the case of artemis, you may need to generate the image histograms. Follow the instructions on git for the same if there is any error.
+	* ML_classifier_Emotion6.ipynb 
+	* ML_classifier_Artemis.ipynb 
 	* Artemis_DeepNet.ipynb
-	* Emotion6_DeepNet.ipynb
+ 	* Emotion6_DeepNet.ipynb
 4. Histogram matching 
-	Hist_matching_final.ipynb
+	* Hist_matching_final.ipynb: Contains the code for low level transformations using Histogram Matching 
 5. CSVs
 	* wikiart_groundtruth.csv: Contains ground truth data for Artemis.
 	* em6_groundtruth.csv: Contains ground truth data for emotion6.
 	* emotion6_filtered_split.csv: Contains data for images with a dominant emotion
+
+## Extra notebooks and experiments
+--------------
 For other things we tried(DL Models/Filters), we share the drive link(https://drive.google.com/drive/folders/1tMW7kRVrirU9R4wxlCq58YDRba-UZ3Tr?usp=sharing). Please ask for access
